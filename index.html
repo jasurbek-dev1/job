@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JadTech </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">JadTech</div>
+    <div class="nav-links">
+      <a href="#">Bosh sahifa</a>
+      <a href="#">Kurslar</a>
+      <a href="#">Biz haqimizda</a>
+      <a href="#">Bog‘lanish</a>
+
+    </div>
+    <a href="#" class="login-btn">Log In</a>
+  </nav>
+
+  <!-- Swiper container -->
+  <section class="carousel-section">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+
+          <div class="carousel-text">
+            <h2>JadTech Academy</h2>
+            <p>Dasturlash va matematikani biz bilan o‘rganing!</p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+
+          <div class="carousel-text">
+            <h2>Kurslar Boshlanmoqda</h2>
+            <p>Endi ro‘yxatdan o‘ting!</p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+
+          <div class="carousel-text">
+            <h2>Professional Mentorlar</h2>
+            <p>O‘qituvchilarimizdan ko‘p narsani o‘rganasiz</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="featured">
+    <div class="textlgn">
+      <h1>Featured Courses</h1>
+      <hr>
+      <p>Expertly crafted  courses to  help you master the latest  technologies and programming languages</p>
+
+    </div>
+    <div class="items">
+      <div class="item">
+        <h2>Front-end Development</h2>
+        <h5>Master HTML, CSS Javascript and <br>modern frameworks like React</h5>
+        <p>Begginer to Advanced</p>
+        <a href="#">Learn more</a>
+
+      </div>
+      <div class="item">
+     <h2>   Back-end Development</h2>
+     <h5>Build robust server-side applications with Java/Node.js and databases</h5>
+     <p>Intermediate</p>
+       <a href="#">Learn more</a>
+      </div>
+      <div class="item">
+        <h2>UI/UX Design </h2>
+        <h5>Create visually stunning and user-friendly interfaces </h5>
+        <p>Begginer to Advanced</p>
+          <a href="#">Learn more</a>
+      </div>
+    </div>
+
+
+  </section>
+  <section class="cours-about">
+    <div class="cards">
+     
+      <div class="card">
+        <h4>500+</h4>
+        <p>Students Taught</p>
+      </div>
+      <div class="card">
+        <h4>20+</h4>
+        <p>Expert Instructors</p>
+      </div>
+      <div class="card">
+        <h4>15+</h4>
+        <p>Specialized Courses</p>
+      </div>
+      <div class="card">
+        <h4>95%</h4>
+        <p>Job Placement</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>JadTech</h3>
+      <p>Dasturlash va matematikani biz bilan o‘rganing. Tez, sifatli va zamonaviy bilimlar!</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Foydali havolalar</h4>
+      <ul>
+        <li><a href="#">Bosh sahifa</a></li>
+        <li><a href="#">Biz haqimizda</a></li>
+        <li><a href="#">Kurslar</a></li>
+        <li><a href="#">Aloqa</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Aloqa</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Toshkent, Yunusobod</p>
+      <p><i class="fas fa-phone-alt"></i> +998 90 123 45 67</p>
+      <p><i class="fas fa-envelope"></i> info@jadtech.uz</p>
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 JadTech. Barcha huquqlar himoyalangan.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Swiper init -->
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+      },
+      effect: 'slide',
+      grabCursor: true,
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
